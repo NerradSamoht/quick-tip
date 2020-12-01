@@ -1,0 +1,1 @@
+A Quick Tip caculator, following a tutorial from the course https://fun-javascript-projects.com.
