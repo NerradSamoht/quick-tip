@@ -63,3 +63,31 @@ input[type="number"] {
 	font-size: 2rem;
 	font-weight: bolder;
 }
+
+.range {
+	appearance: none;
+	width: 100%;
+	height: 8px;
+	background-color: #eee;
+	margin-top: 1.2rem;
+	border-radius: 0.3rem;
+	outline-color: #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+	appearance: none;
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background-color: #3dc0c0;
+	cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background-color: #3dc0c0;
+	cursor: pointer;
+	border: none;
+}
