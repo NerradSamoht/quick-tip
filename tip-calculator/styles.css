@@ -48,6 +48,7 @@ section > div {
 }
 
 input[type="number"] {
+	font-family: inherit;
 	background: #f4f4f5;
 	font-size: 1.6rem;
 	border: 1px solid lightgray;
